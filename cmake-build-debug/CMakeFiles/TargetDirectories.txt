@@ -1,0 +1,3 @@
+/Users/dziugaspeciulevicius/dev/cpp-oop-kursinis/cmake-build-debug/CMakeFiles/cpp_oop_kursinis.dir
+/Users/dziugaspeciulevicius/dev/cpp-oop-kursinis/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/dziugaspeciulevicius/dev/cpp-oop-kursinis/cmake-build-debug/CMakeFiles/rebuild_cache.dir
