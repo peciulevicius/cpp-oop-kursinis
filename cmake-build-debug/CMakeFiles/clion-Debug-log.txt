@@ -11,6 +11,7 @@
 -- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Configuring done (0.9s)
+-- Found SFML 2.6.2 in /opt/homebrew/lib/cmake/SFML
+-- Configuring done (1.0s)
 -- Generating done (0.0s)
 -- Build files have been written to: /Users/dziugaspeciulevicius/dev/cpp-oop-kursinis/cmake-build-debug
