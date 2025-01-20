@@ -7,5 +7,13 @@ set(CMAKE_CXX_STANDARD 17)
 find_package(SFML 2.5 COMPONENTS graphics window system REQUIRED)
 
 # Add executable and link SFML libraries
-add_executable(cpp_oop_kursinis main.cpp)
+add_executable(cpp_oop_kursinis main.cpp
+        Snake.cpp
+        Snake.h
+        Food.cpp
+        Food.h
+        Game.cpp
+        Game.h
+        Entity.cpp
+        Entity.h)
 target_link_libraries(cpp_oop_kursinis sfml-graphics sfml-window sfml-system)
