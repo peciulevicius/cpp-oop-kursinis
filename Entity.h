@@ -6,10 +6,10 @@
 // Abstrakti klasė, apibrėžianti bendrą sąsają visiems žaidimo objektams
 class Entity {
 public:
-    // Grynoji virtuali funkcija, skirta objektui piešti
+    // virtuali funkcija, skirta objektui piešti
     virtual void draw(sf::RenderWindow& window) = 0;
 
-    // Grynoji virtuali funkcija, skirta gauti objekto poziciją
+    // virtuali funkcija, skirta gauti objekto poziciją
     virtual sf::Vector2f getPosition() = 0;
 
     // Virtualus destruktorius, užtikrinantis teisingą išvestinių klasių objektų išvalymą
