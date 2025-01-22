@@ -1,14 +1,11 @@
 #ifndef ENTITY_H
 #define ENTITY_H
 
-#include <SFML/Graphics.hpp>
+#include "GameObject.h"
 
 // Abstrakti klasė, apibrėžianti bendrą sąsają visiems žaidimo objektams
-class Entity {
+class Entity : public GameObject {
 public:
-    // virtuali funkcija, skirta objektui piešti
-    virtual void draw(sf::RenderWindow& window) = 0;
-
     // virtuali funkcija, skirta gauti objekto poziciją
     virtual sf::Vector2f getPosition() = 0;
 

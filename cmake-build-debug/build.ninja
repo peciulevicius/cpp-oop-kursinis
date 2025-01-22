@@ -84,6 +84,20 @@ build CMakeFiles/cpp_oop_kursinis.dir/Entity.cpp.o: CXX_COMPILER__cpp_oop_kursin
   OBJECT_DIR = CMakeFiles/cpp_oop_kursinis.dir
   OBJECT_FILE_DIR = CMakeFiles/cpp_oop_kursinis.dir
 
+build CMakeFiles/cpp_oop_kursinis.dir/GameObject.cpp.o: CXX_COMPILER__cpp_oop_kursinis_unscanned_Debug /Users/dziugaspeciulevicius/dev/cpp-oop-kursinis/GameObject.cpp || cmake_object_order_depends_target_cpp_oop_kursinis
+  DEP_FILE = CMakeFiles/cpp_oop_kursinis.dir/GameObject.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/cpp_oop_kursinis.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp_oop_kursinis.dir
+
+build CMakeFiles/cpp_oop_kursinis.dir/Container.cpp.o: CXX_COMPILER__cpp_oop_kursinis_unscanned_Debug /Users/dziugaspeciulevicius/dev/cpp-oop-kursinis/Container.cpp || cmake_object_order_depends_target_cpp_oop_kursinis
+  DEP_FILE = CMakeFiles/cpp_oop_kursinis.dir/Container.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/cpp_oop_kursinis.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp_oop_kursinis.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cpp_oop_kursinis
@@ -92,7 +106,7 @@ build CMakeFiles/cpp_oop_kursinis.dir/Entity.cpp.o: CXX_COMPILER__cpp_oop_kursin
 #############################################
 # Link the executable cpp_oop_kursinis
 
-build cpp_oop_kursinis: CXX_EXECUTABLE_LINKER__cpp_oop_kursinis_Debug CMakeFiles/cpp_oop_kursinis.dir/main.cpp.o CMakeFiles/cpp_oop_kursinis.dir/Snake.cpp.o CMakeFiles/cpp_oop_kursinis.dir/Food.cpp.o CMakeFiles/cpp_oop_kursinis.dir/Game.cpp.o CMakeFiles/cpp_oop_kursinis.dir/Entity.cpp.o | /opt/homebrew/lib/libsfml-graphics.2.6.2.dylib /opt/homebrew/lib/libsfml-window.2.6.2.dylib /opt/homebrew/lib/libsfml-system.2.6.2.dylib
+build cpp_oop_kursinis: CXX_EXECUTABLE_LINKER__cpp_oop_kursinis_Debug CMakeFiles/cpp_oop_kursinis.dir/main.cpp.o CMakeFiles/cpp_oop_kursinis.dir/Snake.cpp.o CMakeFiles/cpp_oop_kursinis.dir/Food.cpp.o CMakeFiles/cpp_oop_kursinis.dir/Game.cpp.o CMakeFiles/cpp_oop_kursinis.dir/Entity.cpp.o CMakeFiles/cpp_oop_kursinis.dir/GameObject.cpp.o CMakeFiles/cpp_oop_kursinis.dir/Container.cpp.o | /opt/homebrew/lib/libsfml-graphics.2.6.2.dylib /opt/homebrew/lib/libsfml-window.2.6.2.dylib /opt/homebrew/lib/libsfml-system.2.6.2.dylib
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   LINK_LIBRARIES = -Wl,-rpath,/opt/homebrew/lib  /opt/homebrew/lib/libsfml-graphics.2.6.2.dylib  /opt/homebrew/lib/libsfml-window.2.6.2.dylib  /opt/homebrew/lib/libsfml-system.2.6.2.dylib
   OBJECT_DIR = CMakeFiles/cpp_oop_kursinis.dir

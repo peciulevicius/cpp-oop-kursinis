@@ -15,5 +15,9 @@ add_executable(cpp_oop_kursinis main.cpp
         Game.cpp
         Game.h
         Entity.cpp
-        Entity.h)
+        Entity.h
+        GameObject.cpp
+        GameObject.h
+        Container.cpp
+        Container.h)
 target_link_libraries(cpp_oop_kursinis sfml-graphics sfml-window sfml-system)
